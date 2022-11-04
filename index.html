@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Evil Olive</title>
+</head>
+<body>
+    <div class="logo">
+        <span class="left-logo"><h1>Evil</h1></span>
+        <img src="OliveLogo.jpg">
+        <span class="right-logo"><h1>livE</h1></span>
+    </div>
+    <div class="input">
+        <p class="intro"><span>Enter a palindrome word or phrase</span><span>The longer the palindrome the higher the score!</span></p>
+        <form>
+            <input type="text" name="word" id="word">
+            <input type="submit" value="Check It" id="button" class="check" onclick="check()">
+        </form>
+        <p id="answer" class="answer"></p>
+    </div>
+</body>
+<script src="index.js" defer></script>
+</html>
